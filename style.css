@@ -32,7 +32,38 @@ body{
     font-size: 5rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
 }
+.h11{
+    display: none;
+}
 .br{
     border-radius: 10px;
 
+}
+@media only screen and (max-width:768px) {
+    .h11{
+        display: block;
+        font-size: 2rem!important;
+        text-align: center!important;
+        font-weight: 700;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    }
+    .div1{
+        flex-direction: column;
+        display: block;
+    }
+    .icon{
+        display: flex;
+        justify-content: space-around;
+    }
+   
+   
+   .bs{
+       margin-left: auto;
+   }
+    .h1{
+        display: none;
+    }
+    .p{
+        text-align: center;
+    }
 }
